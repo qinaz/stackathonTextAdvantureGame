@@ -1,7 +1,7 @@
 let advanture = {
   currentScene: 'beginStory',
   beginStory: {
-    text: 'You woke up and found yourself in an unfamiliar environment. You are lying on the bed with some cannula attached to the back of your left hand. The surroundings were quiet, except for the beeping sound of the instrument. At this point you are thinking:',
+    text: 'When you wake up, you find yourself in a strange environment. As you lie on the bed, some cannulas are attached to the back of your left hand. Except for the beeping sound of the medical equipment, everything was quiet. At this point you are thinking:',
     options: [
       {
         option: 'where am I?',
@@ -15,7 +15,7 @@ let advanture = {
   },
 
   labortory: {
-    text: 'You looked around, and there were medicines, test tubes, and shiny instruments that were randomly placed around. It seemed that this was where the virus that scientific researchers said first spread. There is no one in the lab for the time being, and you decide to:',
+    text: 'As you look around, you find medicines, test tubes, and medical instruments scattered everywhere. Clearly, this was where scientists said that the virus first spread. You are the only one in the lab for the time being, so you decide to:',
     options: [
       {
         option: 'Unplug the cannula, get up and look around for useful clues.',
@@ -30,7 +30,7 @@ let advanture = {
   },
 
   lookAround: {
-    text: 'You looked around lightly, and found a thick stack of documents on the table. Your profile at the top, and the progress of experiments conducted on you. Luckily you have just been brought back and they have not had time to do anything to you. Turning back, it is recorded that many people could not bear the consequences of virus experiments and died. You clenched your fists, feeling very angry. Flipped to the bottom of the data, which is mixed with a map of the laboratory, and you decide:',
+    text: "There was a thick stack of documents on the table as you looked around. We saw your profile at the top and the progress of the experiments conducted on you. Luckily, you have just been brought back and haven't had time to be treated with the experiment. Continuing reading the documents, you found that there were people who died from the side effects of virus experiments back in the past. Flipped to the bottom of the documents, you found a map of the laboratory, and you decide:",
     options: [
       {
         option: 'Take the map.',
@@ -48,7 +48,7 @@ let advanture = {
     buttonText: "Let's try this again",
   },
   withMap: {
-    text: 'You have just put away the map when you hear footsteps coming from outside, and there is only one person. You look at the bed and behind the door, and you decide:',
+    text: 'As soon as you put the map away, you hear footsteps from outside and there is only one person around. After looking at the bed and behind the door, you decide:',
     options: [
       {
         option: 'Lie back on the bed and pretend nothing happened..',
@@ -61,7 +61,7 @@ let advanture = {
     ],
   },
   chooseBed: {
-    text: 'The door was pushed open, and a researcher dressed in white walked in from outside. He seemed to notice that the instrument was no longer beeping. He approached the bed, wanting to examine it carefully. As he gets closer, you:',
+    text: 'A researcher dressed in white stepped in from the outside and opened the door. He seemed to notice that the instrument had stopped beeping. He decided to examine it closely. As he gets closer, you:',
     options: [
       {
         option: 'Get up and knock him out quickly.',
@@ -74,7 +74,7 @@ let advanture = {
     ],
   },
   hitHim: {
-    text: 'Your movements are neat and agile, and you do not make a lot of noise. There seems to be nothing valuable in this room, and you remember the most central experimental center indicated by the map, where the viruses must be kept. So you decide:',
+    text: "Your movements are neat and agile, and you don't make a lot of noise. As you look around, you realize there is nothing valuable in this room, and you remember the most central experimental center on the map, where you have to keep the viruses. So you decide:",
     options: [
       {
         option:
